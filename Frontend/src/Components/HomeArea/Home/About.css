@@ -1,0 +1,40 @@
+.Home-Section {
+ padding: 50px 20px;
+ text-align: center;
+}
+
+.Home-Content {
+ max-width: 800px;
+ margin: 0 auto;
+ background-color: rgba(255, 255, 255, 0.8); /* Adding a semi-transparent white background */
+ padding: 20px;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+}
+
+.Home-Content img {
+ width: 100%; /* Make the image take the full width of its container */
+ border-radius: 10px; /* Rounded corners */
+ margin-bottom: 20px;
+}
+
+.Home-Content p {
+ font-size: 18px;
+ line-height: 1.6;
+ margin-bottom: 20px;
+}
+
+.Link {
+ display: inline-block;
+ background-color: #c6c5c5;
+ color: black;
+ font-size: 18px;
+ text-decoration: none;
+ padding: 10px 20px;
+ border-radius: 5px;
+ transition: background-color 0.3s;
+}
+
+.Link:hover {
+ background-color: #b3b1b1;
+}

@@ -1,0 +1,39 @@
+
+.Cart {
+ padding: 20px;
+ width: 420px;
+}
+
+.Cart h2 {
+ font-size: 1.5rem;
+ margin-bottom: 20px;
+}
+
+.Cart p {
+ font-size: 1rem;
+}
+
+.CartItem {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 10px;
+ border-bottom: 1px solid #ccc;
+}
+
+.CartItem .information {
+ flex-grow: 1;
+}
+
+.CartItem .information h3 {
+ margin: 0;
+ font-size: 1.2rem;
+}
+
+
+.CartImage {
+ width: 100px;
+ height: 100px;
+ object-fit: cover;
+ margin-left: 20px;
+}

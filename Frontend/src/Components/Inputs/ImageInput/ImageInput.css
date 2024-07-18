@@ -1,0 +1,49 @@
+.image-container {
+ position: relative;
+ width: 220px;
+ height: 170px;
+ overflow: hidden;
+ border: 1px solid #ccc;
+ border-radius: 8px;
+ margin: 0 auto;
+ margin-top: 20px;
+}
+
+.image-preview {
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.image-preview img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+
+.image-input-container {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-color: rgba(255, 255, 255, 0.35);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.upload-label {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 14px;
+ color: #333;
+ cursor: pointer;
+}
+
+.upload-icon {
+ margin-right: 4px;
+}

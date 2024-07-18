@@ -1,0 +1,160 @@
+#product-card {
+  width: 220px;
+  height: 190px;
+  margin: 15px;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+  -webkit-transition: box-shadow 0.3s ease, transform 0.3s ease;
+  -moz-transition: box-shadow 0.3s ease, transform 0.3s ease;
+  -o-transition: box-shadow 0.3s ease, transform 0.3s ease;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#product-card.animate {
+  width: 220px;
+  min-height: 530px;
+  box-shadow: 0px 13px 21px -5px rgba(0, 0, 0, 0.3);
+  -webkit-transition: 100ms ease-out;
+  -moz-transition: 100ms ease-out;
+  -o-transition: 100ms ease-out;
+  background-repeat: no-repeat;
+  transition: 100ms ease-out;
+}
+
+
+.stats-container {
+  background: #fff;
+  position: absolute;
+  top: 130px;
+  width: 230px;
+  height: 330px;
+  padding: 0px 35px 35px;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+
+#product-card.animate .stats-container {
+  top: 272px;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+
+.stats-container .product_name {
+  font-size: 15px;
+  color: #393c45;
+}
+
+
+.stats-container p {
+  font-size: 16px;
+  color: #b1b1b3;
+}
+
+.stats-container .product_price {
+
+  color: lightgreen;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.image_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+#product-card.animate .image_overlay {
+  opacity: 0.4;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+
+.product-options {
+  margin-top: -20px;
+}
+
+.product-options strong {
+  font-weight: 700;
+  color: #393c45;
+  font-size: 14px;
+}
+
+.product-options span {
+  color: #969699;
+  font-size: 14px;
+  display: block;
+}
+
+#view_details {
+  position: absolute;
+  top: 112px;
+  margin-left: -85px;
+  border: 1px solid #f5f5f5;
+  border-radius: 15px;
+  color: #fff;
+  background: #fff; 
+  opacity: 0;
+  max-width: 50px;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+
+#view_details:hover {
+  background: #fff;
+  color: #48cfad;
+  cursor: pointer;
+}
+
+#product-card.animate #view_details {
+  opacity: 1;
+  width: 50px;
+  font-size: 15px;
+  left: 87px;
+  top: 3px;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+
+
+div.c-white span {
+  background: #fff;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #e8e9eb;
+}
+
+div.shadow {
+  width: 335px;
+  height: 520px;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  display: none;
+  background: -webkit-linear-gradient(left,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.2));
+  background: -o-linear-gradient(right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
+  background: -moz-linear-gradient(right,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.2));
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
+}

@@ -1,0 +1,25 @@
+.AuthMenu {
+ display: flex;
+ align-items: center;
+}
+
+.user-info,
+.guest-info {
+ display: flex;
+ align-items: center;
+ color: #333;
+}
+
+.menu-icon {
+ color: #333;
+}
+
+.NavLink {
+ margin-left: 10px;
+ text-decoration: none;
+ color: #333;
+}
+
+.NavLink:hover {
+ text-decoration: underline;
+}

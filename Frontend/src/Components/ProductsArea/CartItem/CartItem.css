@@ -1,0 +1,29 @@
+.CartItem {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 10px;
+ border-bottom: 1px solid #ccc;
+}
+
+.information {
+ flex-grow: 1;
+ font-size: 15px;
+}
+
+.information h3 {
+ margin: 0;
+ font-size: 1.2rem;
+}
+
+.buttons {
+ display: flex;
+ gap: 10px;
+}
+
+.CartImage {
+ width: 100px;
+ height: 100px;
+ object-fit: cover;
+ margin-left: 20px;
+}

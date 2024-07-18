@@ -1,0 +1,74 @@
+.category-card {
+ position: relative;
+ min-width: 220px;
+ height: 270px;
+ border-radius: 10px;
+ overflow: hidden;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ transition: all 0.3s ease;
+ cursor: pointer;
+}
+
+.category-info {
+ position: relative;
+ width: 100%;
+ height: 100%;
+ background-size: cover;
+ background-position: center;
+ display: flex;
+ align-items: flex-end;
+ border-radius: 10px;
+}
+
+.category-info-overlay {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ background-color: rgba(0, 0, 0, 0.3);
+ padding: 20px;
+ border-radius: 0 0 10px 10px;
+}
+
+.category-info h3 {
+ color: #fff;
+ font-size: 1.5rem;
+ margin: 0;
+}
+
+.hover-info {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-color: rgba(0, 0, 0, 0.4);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ opacity: 0;
+ transition: opacity 0.3s ease;
+ border-radius: 10px;
+}
+
+.hover-info.active {
+ opacity: 1;
+}
+
+.details {
+ text-align: center;
+}
+
+.details p {
+ color: #fff;
+ font-size: 1rem;
+ margin: 0;
+}
+
+.category-card:hover .category-info {
+ transform: scale(1.05);
+}
+
+.category-card:hover .hover-info {
+ opacity: 1;
+}
